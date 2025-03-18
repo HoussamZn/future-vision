@@ -15,9 +15,6 @@ def home():
     st.write("* filter your data")
     st.write("* Export your data")
 
-    video_file = open("videos/1.mp4", "rb")
-    video_bytes = video_file.read()
-    st.video(video_bytes)
 
     st.write("---")
     st.write("## Data Pre-Proccessing")
@@ -29,10 +26,6 @@ def home():
     st.write("* visualize your data")
 
 
-    video_file = open("videos/3.mp4", "rb")
-    video_bytes = video_file.read()
-    st.video(video_bytes)
-
     st.write("---")
     st.write("## Training Models & Predictions")
     st.write("This platform is designed to help you with your training models and make your prediction.")
@@ -40,8 +33,3 @@ def home():
     st.write("* Import a trained model or train a new one")
     st.write("* adjust the model parameters")
     st.write("* make predictions on new data")
-    st.write("* export your model to use it in your applications later on")
-
-    video_file = open("videos/4.mp4", "rb")
-    video_bytes = video_file.read()
-    st.video(video_bytes)
